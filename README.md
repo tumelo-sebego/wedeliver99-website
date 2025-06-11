@@ -1,35 +1,139 @@
-# README.md content
+<a name="readme-top"></a>
 
-# Wedeliver99 Website
+<!-- PROJECT LOGO -->
+<br />
+<!-- PROJECT LOGO -->
+<div align="left" >
+<center>
+      <a href="public/elegent-logo.png" align="center">
+        <img src="public/elegent-logo.png" alt="Logo" width="50" height="50">
+      </a>    
+</center>
+<center>
+       <h1 style="display: inline-block; margin-left: 10px;">Elegent Admin Dashboard</h1>
+</center>
+</div>
+<br />
 
-## Overview
-The Wedeliver99 Website is a Vue.js application that provides users with an interactive platform to explore various features, including a filtering capability to enhance user experience.
+<br />
+<br />
+<!-- TABLE OF CONTENTS -->
+<details  align="left">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>    
+    <li><a href="#license">License</a></li>    
+    <li><a href="#license">Acknowledgments</a></li>
+  </ol>
+</details>
+<br />
+<br />
+<!-- ABOUT THE PROJECT -->
 
-## Features
-- Home View: The landing page of the application.
-- About View: Information about the application or organization.
-- Filter View: An interface for filtering items based on user input.
+## About The Project
 
-## Project Structure
-- `src/assets`: Contains static assets such as images, fonts, and stylesheets.
-- `src/components/Filter.vue`: Vue component for filtering items.
-- `src/router/index.js`: Sets up the Vue Router for the application.
-- `src/store/index.js`: Initializes the Vuex store for state management.
-- `src/views/HomeView.vue`: Defines the Home view component.
-- `src/views/AboutView.vue`: Defines the About view component.
-- `src/views/FilterView.vue`: Defines the Filter view component.
-- `src/App.vue`: The root component of the application.
-- `src/main.js`: The entry point of the application.
-- `public/index.html`: The main HTML file for the application.
-- `package.json`: Configuration file for npm.
-- `vue.config.js`: Configuration options for Vue CLI.
+[![Product Name Screen Shot][product-screenshot]](public/homepage.png)
 
-## Setup Instructions
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run `npm install` to install dependencies.
-4. Run `npm run serve` to start the development server.
-5. Open your browser and go to `http://localhost:8080` to view the application.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Usage
-Explore the different views and utilize the filtering feature to find specific items easily.
+### <h3>Built With :</h3>
+
+[![React][React.js]][React-url]
+[![Material][Material]][React-url]
+![E-Chart][Apache-chart]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have met the following prerequisites:
+
+- [Node.js](https://nodejs.org/) installed on your local machine
+- npm or yarn package manager installed with Node.js
+
+### Installation
+
+Follow these steps to get your project up and running:
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/themewagon/elegent.git
+   ```
+2. **Navigate to the project directory**
+   ```sh
+   cd elegent
+   ```
+3. **Install dependencies**
+   ```sh
+   npm install
+   ```
+4. **Start the development server**
+   ```sh
+   npm run dev
+   ```
+   Open your web browser and navigate to http://localhost:3000/elegent to view this application.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="readme-top">
+<div align="">
+<a align="center" href="https://github.com/themewagon/elegent/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=themewagon/elegent" /><br />
+</a></a></div>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: public/homepage.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[Material]: https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white
+[Apache-chart]: https://img.shields.io/badge/echart-4.7.0-green
