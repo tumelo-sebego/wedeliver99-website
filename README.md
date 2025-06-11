@@ -1,60 +1,11 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<br />
-<!-- PROJECT LOGO -->
-<div align="left" >
-<center>
-      <a href="public/elegent-logo.png" align="center">
-        <img src="public/elegent-logo.png" alt="Logo" width="50" height="50">
-      </a>    
-</center>
-<center>
-       <h1 style="display: inline-block; margin-left: 10px;">Elegent Admin Dashboard</h1>
-</center>
-</div>
-<br />
 
 <br />
 <br />
-<!-- TABLE OF CONTENTS -->
-<details  align="left">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>    
-    <li><a href="#license">License</a></li>    
-    <li><a href="#license">Acknowledgments</a></li>
-  </ol>
-</details>
-<br />
-<br />
-<!-- ABOUT THE PROJECT -->
 
-## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](public/homepage.png)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### <h3>Built With :</h3>
-
-[![React][React.js]][React-url]
-[![Material][Material]][React-url]
-![E-Chart][Apache-chart]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
