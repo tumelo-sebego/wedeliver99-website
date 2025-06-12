@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "nodemon main.js"
   },
   "author": "Your Name",
   "license": "MIT",
@@ -16,8 +17,13 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@vue/cli-service": "^4.5.15",
     "@vue/cli-plugin-babel": "^4.5.15",
-    "babel-eslint": "^10.1.0"
+    "@vue/cli-service": "^4.5.15",
+    "@vue/test-utils": "^2.4.6",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^30.0.0",
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.10",
+    "vue-jest": "^3.0.7"
   }
 }
