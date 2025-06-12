@@ -26,7 +26,14 @@ export default {
 
 .dashboard-content {
   flex: 1;
-  margin-left: 250px; /* Same as menu width */
+  margin-left: 250px;
   padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    margin-left: 0;
+    padding-top: 60px;
+  }
 }
 </style>
