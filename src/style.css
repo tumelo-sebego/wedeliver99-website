@@ -1,7 +1,7 @@
 :root {
   --primary-color: #42b983;
   --secondary-color: #666666;
-  --background-color: #f5f5f5;
+  --background-color: #242424;
   --white: #ffffff;
   --black: #000000;
   --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -37,6 +37,8 @@ body {
   min-height: 100vh;
 
   background-color: var(--background-color);
+  min-height: 100vh;
+  color: var(--white);
 }
 
 .container {
