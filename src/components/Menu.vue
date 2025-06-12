@@ -61,6 +61,8 @@ export default {
   display: flex;
   flex-direction: column;
   z-index: 1000;
+  margin: 30px;
+  border-radius: 20px;
 }
 
 .menu-button {
@@ -69,7 +71,6 @@ export default {
   top: 10px;
   left: 10px;
   z-index: 1001;
-  background: var(--primary-color);
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -127,14 +128,13 @@ export default {
 
 .material-icons {
   font-size: 24px;
-  margin-right: 15px;
 }
 
 .menu-item span:not(.material-icons) {
   font-size: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .menu-button {
     display: flex;
   }
