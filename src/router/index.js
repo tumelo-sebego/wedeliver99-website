@@ -1,26 +1,12 @@
-wedeliver99-website
-├── src
-│   ├── assets
-│   │   └── styles
-│   │       └── main.css
-│   ├── components
-│   │   └── HelloWorld.vue
-│   ├── router
-│   │   └── index.js
-│   ├── store
-│   │   └── index.js
-│   ├── views
-│   │   ├── HomeView.vue
-│   │   └── AboutView.vue
-│   ├── App.vue
-│   └── main.js
-├── public
-│   └── index.html
-├── tests
-│   └── unit
-│       └── example.spec.js
-├── .gitignore
-├── babel.config.js
-├── vue.config.js
-├── package.json
-└── README.md
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+const routes = [
+  // your routes here
+]
+
+export default new VueRouter({
+  routes
+})
