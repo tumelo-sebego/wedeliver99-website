@@ -54,15 +54,17 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: calc(100vh - 60px);
   width: 250px;
-  background: #ffffff;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  background: var(--background-lighter);
+  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   z-index: 1000;
   margin: 30px;
   border-radius: 20px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .menu-button {
@@ -77,7 +79,8 @@ export default {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  color: white;
+  background: var(--primary-color);
+  color: var(--background-color);
 }
 
 .menu-overlay {
@@ -110,33 +113,45 @@ export default {
 .menu-item {
   display: flex;
   align-items: center;
-  padding: 15px 30px;
+  padding: 12px 30px;
   text-decoration: none;
-  color: #666;
+  color: var(--white);
   transition: all 0.3s ease;
+  border-radius: 8px;
+  margin: 4px 16px;
+  font-weight: 400;
 }
 
 .menu-item:hover {
-  background-color: #f5f5f5;
+  background-color: var(--primary-hover);
+  color: var(--primary-color);
 }
 
 .menu-item.router-link-active {
-  color: #42b983;
-  background-color: #f5f5f5;
-  border-left: 4px solid #42b983;
+  color: var(--primary-color);
+  background-color: var(--primary-active);
+  font-weight: 600;
 }
 
 .material-icons {
   font-size: 24px;
+  margin-right: 12px;
 }
 
 .menu-item span:not(.material-icons) {
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 @media (max-width: 1200px) {
   .menu-button {
     display: flex;
+  }
+
+  .menu-container {
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
   }
 
   .menu-container {
